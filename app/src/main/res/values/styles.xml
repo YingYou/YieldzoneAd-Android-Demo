@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <!-- 主题配置 -->
+    <style name="Theme.Light.NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.Dialog.TTDownload" parent="Theme.AppCompat.Light.Dialog" tools:keep="@style/Theme_Dialog_TTDownload">
+        <item name="windowNoTitle">?android:attr/windowNoTitle</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!--自定义插屏广告 dialog背景全透明无边框theme -->
+    <style name="native_insert_dialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+
+    <style name="PrimaryButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">#ffffff</item>
+        <item name="colorControlHighlight">#503399cc</item>
+        <!--        <item name="actionButtonStyle" ></item>-->
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="background">@drawable/btn_bg_creative</item>
+        <!--        <item name="selectableItemBackground">@drawable/item_background_material</item>-->
+        <!--        <item name="selectableItemBackgroundBorderless">@drawable/item_background_borderless_material</item>-->
+        <!--        <item name="borderlessButtonStyle">@style/Widget.Material.Light.Button.Borderless</item>-->
+        <!--        <item name="buttonBarButtonStyle">@style/Widget.Material.Light.Button.ButtonBar.AlertDialog</item>-->
+
+
+    </style>
+
+</resources>

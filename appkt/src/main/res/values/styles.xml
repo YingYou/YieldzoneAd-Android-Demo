@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="PrimaryButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">#ffffff</item>
+        <item name="colorControlHighlight">#503399cc</item>
+        <!--        <item name="actionButtonStyle" ></item>-->
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="background">@drawable/btn_bg_creative</item>
+        <!--        <item name="selectableItemBackground">@drawable/item_background_material</item>-->
+        <!--        <item name="selectableItemBackgroundBorderless">@drawable/item_background_borderless_material</item>-->
+        <!--        <item name="borderlessButtonStyle">@style/Widget.Material.Light.Button.Borderless</item>-->
+        <!--        <item name="buttonBarButtonStyle">@style/Widget.Material.Light.Button.ButtonBar.AlertDialog</item>-->
+
+
+    </style>
+</resources>
